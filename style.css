@@ -102,7 +102,7 @@ header {
 }
 
 .banner p {
- padding-left: 1rem 0 2rem 0;
+ padding: 1rem 0 2rem 0;
  font-size: 1.2rem;
  text-transform: capitalize;
  font-family: var(--Roboto);
@@ -245,7 +245,7 @@ header {
 
 .blog-content {
  display: grid;
- grid-template-columns: repeat(3 1fr);
+ grid-template-columns: repeat(3, 1fr);
  gap: 2rem;
  margin: 2rem 0;
 }
@@ -305,3 +305,23 @@ header {
 }
 
 /* End of blog styling */
+
+/* Start of about styling */
+.about{
+ padding: 4.5rem 0;
+}
+.about-content{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 3rem;
+ align-items: center;
+}
+.about-text{
+ margin: 2rem 0;
+}
+.about-text p{
+ font-size: 1.1rem;
+ padding: .6rem 0;
+ opacity: .8;
+}
+/* End of about styling */
