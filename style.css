@@ -14,7 +14,9 @@
  box-sizing: border-box;
  font-family: var(--Quicksand);
 }
-
+html{
+ scroll-behavior: smooth;
+}
 body {
  line-height: 1.4;
  color: var(--dark);
@@ -325,3 +327,40 @@ header {
  opacity: .8;
 }
 /* End of about styling */
+
+/* Start of footer styling */
+footer{
+ background: var(--dark);
+ color: #fff;
+ text-align: center;
+ padding: 2rem 0;
+}
+.social-links{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 1.4rem;
+}
+.social-links a{
+ border: 2px solid #fff;
+ color: #fff;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-decoration: none;
+ margin: 0 .3rem;
+ transition: all .5s ease;
+}
+.social-links a:hover{
+ background: #fff;
+ color: var(--dark);
+}
+footer span{
+ margin-top: 1rem;
+ display: block;
+ font-family: var(--Playfair);
+ letter-spacing: 2px;
+}
+/* Start of footer styling */
