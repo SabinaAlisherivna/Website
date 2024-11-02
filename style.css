@@ -154,6 +154,7 @@ background-attachment: fixed;
 }
 .design-img{
  position: relative;
+ overflow: hidden;
 }
 .design-img::after{
  position: absolute;
@@ -163,5 +164,11 @@ background-attachment: fixed;
  width: 100%;
  height: 100%;
  background:rgba(0,0,0,0.3);
+}
+.design-img img{
+ transition: all .5s ease;
+}
+.design-item:hover img{
+ transform: scale(1.2);
 }
 
