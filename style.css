@@ -274,19 +274,22 @@ header {
  display: block;
  padding-bottom: .5rem;
 }
-.blog-text h2{
+
+.blog-text h2 {
  font-family: var(--Playfair);
  padding: 1rem 0;
  font-size: 1.65rem;
  font-weight: 500;
 }
-.blog-text p{
+
+.blog-text p {
  font-weight: 300;
  font-size: 1.1rem;
  opacity: 0.9;
  padding-bottom: 1.2rem;
 }
-.blog-text a{
+
+.blog-text a {
  font-family: var(--Roboto);
  font-size: 1.1rem;
  text-decoration: none;
@@ -296,7 +299,9 @@ header {
  background: var(--dark);
  transition: all .5s ease;
 }
-.blog-text a:hover{
+
+.blog-text a:hover {
  background: var(--exDark);
 }
+
 /* End of blog styling */
