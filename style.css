@@ -171,4 +171,34 @@ background-attachment: fixed;
 .design-item:hover img{
  transform: scale(1.2);
 }
+.design-img span:first-of-type{
+ position: absolute;
+ z-index: 1;
+ top: 10px;
+ background: var(--dark);
+ padding: 0.25rem 1rem;
+ color: #fff;
+}
+.design-img span:last-of-type{
+ position: absolute;
+ z-index: 1;
+ bottom: 10px;
+ right: 10px;
+ color: #fff;
+ font-weight: 700;
+ font-size: 1.1rem;
 
+}
+.design-title{
+ padding: 1rem;
+ font-size: 1.2rem;
+ text-align: center;
+ width: 90%;
+ margin: 0 auto;
+}
+.design-title a{
+ color: var(--dark);
+ text-decoration: none;
+ text-transform: capitalize;
+ font-family: var(--Playfair);
+}
